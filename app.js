@@ -54,7 +54,7 @@ app.get("/", homePage)
 app.get("/player/create", getCreatePage)
 app.post("/player/create", createPlayer)
 app.get("/player/:id", getOnePlayer)
-app.get("/player/edit", getEditPage)
+app.get("/player/edit/:id", getEditPage)
 
 
 
